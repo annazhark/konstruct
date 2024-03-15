@@ -310,3 +310,182 @@ body {
 }
 
 /*GET-IN_TOUCH STYLES end*/
+
+/*SIGNUP STYLES start*/
+.signup {
+  background-color: #171819;
+  display: flex;
+  flex-direction: row;
+  padding-top: 35px;
+  padding-bottom: 34px;
+}
+
+.signup__content {
+  display: flex;
+  justify-content: center;
+  gap: 70px;
+}
+.signup__title {
+  margin: 0;
+  font-weight: 700;
+  font-size: 22px;
+  letter-spacing: 0.04em;
+  color: #fff;
+}
+.signup__input {
+  display: flex;
+}
+
+.signup__input__field,
+.btn {
+  display: inline-block;
+  margin: 0;
+  border: 0;
+}
+
+/*SIGNUP STYLES end*/
+
+/*FOOTER STYLES start*/
+
+.footer {
+  background-color: #141a20;
+}
+
+.footer__wrapper {
+  display: flex;
+  justify-content: space-evenly;
+  padding-bottom: 47px;
+}
+.footer__info {
+  max-width: 250px;
+  margin-right: 71px;
+}
+.footer__info__title {
+  font-weight: 400;
+  font-size: 11px;
+  letter-spacing: 0.08em;
+  text-align: left;
+  color: #fff;
+  margin-top: 34px;
+  margin-bottom: 19px;
+}
+
+.footer__info__logo {
+  margin-bottom: 15px;
+}
+.footer__info__desc {
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 19px;
+  letter-spacing: 0.08em;
+  color: #fff;
+  margin: 0;
+}
+.footer__links {
+}
+
+.footer__links__title {
+  font-weight: 400;
+  font-size: 11px;
+  letter-spacing: 0.08em;
+  color: #fff;
+  margin-top: 34px;
+  margin-bottom: 10px;
+}
+.footer__links__list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.footer__links__item {
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 25px;
+  letter-spacing: 0.08em;
+  color: #fff;
+}
+
+.footer__more {
+}
+
+.footer__more__list {
+  list-style: none;
+  column-count: 2;
+  column-gap: 38px;
+  position: relative;
+  top: 50px;
+}
+
+.footer__more__item {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 25px;
+  letter-spacing: 0.08em;
+  color: #fff;
+}
+
+.footer__contacts {
+  font-weight: 400;
+  font-size: 11px;
+  letter-spacing: 0.08em;
+  color: #fff;
+  max-width: 131px;
+  margin-top: 15px;
+}
+.footer__contacts__title {
+  font-weight: 400;
+  font-size: 11px;
+  letter-spacing: 0.08em;
+  color: #fff;
+}
+
+.footer__contacts__address {
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 16px;
+  letter-spacing: 0.08em;
+  color: #fff;
+}
+
+.footer__contacts__tel {
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+.footer__contacts__tel,
+.footer__contacts__email {
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 16px;
+  letter-spacing: 0.08em;
+  color: #fff;
+}
+.footer__contacts__email {
+}
+.footer__socials {
+  display: inline-block;
+  margin-top: 69px;
+}
+.footer__socials__icon {
+}
+
+.footer__socials__img {
+}
+
+/*FOOTER STYLES end*/
+
+.copyright {
+  background-color: #171819;
+  margin: 0;
+}
+.copyright__text {
+  text-align: center;
+  font-weight: 400;
+  font-size: 11px;
+  letter-spacing: 0.08em;
+  color: #fff;
+  margin: 0;
+  padding: 22px 0 23px;
+}
